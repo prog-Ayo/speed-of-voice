@@ -1,6 +1,6 @@
 ﻿# speed-of-voice
  
-This program analyzes your speech speed—whether you speak fast, slow, or at a moderate pace. You can click on the microphone icon on the website to record your voice, after which the program will analyze the audio and display the result. Alternatively, if you have an MP3 audio file, you can upload it to the website, and it will analyze the speech and provide feedback.
+This website analyzes your speech speed—whether you speak fast, slow, or at a moderate pace. You can click on the microphone icon on the website to record your voice, after which the program will analyze the audio and display the result. Alternatively, if you have an MP3 audio file, you can upload it to the website, and it will analyze the speech and provide feedback.
 
 To run the website correctly:
 

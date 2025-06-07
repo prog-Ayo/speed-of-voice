@@ -1,0 +1,125 @@
+/* ----------- Responsive Styles ----------- */
+@media (max-width:1484px) and (min-width:200px) {
+    .part2_2{
+        margin-inline: auto;
+        width:90%;
+        margin-top:40px;
+    }
+    .part2_1{
+        width:90%
+    }
+}
+@media (max-width:1197px) and (min-width:200px) {
+    .part3b{
+        flex-direction: column;
+        border:none
+    }
+    .part3b .part3_1{
+        border: 2px solid #eeeeee61;
+        width:90%;
+        min-height: 70vh;
+        border-radius: 20px;
+    }
+    .part3b .part3_2{
+        border: 2px solid #eeeeee61;
+        width:90%;
+        min-height: 70vh;
+        border-radius: 20px;
+        margin-top:30px;
+    }
+    .part1{
+        flex-direction: column;
+    }
+    .part1_1,.part1_2{
+        margin-inline: auto;
+        width:90%;
+    }
+    .part1_2{
+        margin-top: 40px;
+    }
+    .part1_2 .part1_2_1{
+        width:100% !important;
+        gap:30px;
+    }
+    .hidden_menu{
+        display: none;
+    }
+    .header{
+        justify-content: center;
+    }
+} 
+@media (max-width:750px) and (min-width:200px) {
+    .heading h1{
+        font-size:clamp(20px, 1vw + 2.8rem , 40px);
+    }
+    .blur-circle{
+        width:70%;
+        height:80% ;
+    }
+}
+@media (max-width:585px) and (min-width:200px) {
+    .heading h1,.part3a h2,.part4 h2{
+        font-size:clamp(20px, 1vw + 2rem , 30px);
+        text-align: center;
+    }
+    .part2_2 {
+        margin: 10px;
+        padding:10px;
+    }
+    .part2_2 p{
+        padding:0;
+        width:100%;
+    }
+    .part3_2{
+        flex-direction: column;
+    }
+    .part3_2 label{
+        margin-right:0px !important;
+    }
+    #uploadBtn{
+        margin-top:40px
+    }
+    .part2_1{
+        padding-inline:10px;
+    }
+    .part2_1 > div{
+        width:100%;
+        padding-inline: 10px;
+    }
+    .part5{
+        width:100%;
+    }
+    .part5 div:first-child{
+        top:10px;
+        right:10px;
+        width:20px;
+        height:20px;
+        justify-content: center;
+
+    }
+}
+@media (max-width:350px) and (min-width:200px) {
+    .part2_2  h2{
+        font-size:clamp(15px, 1vw + 1.2rem , 25px);
+        white-space: wrap;
+    }
+    .heading h1{
+        font-size:clamp(15px, 1vw + 1.7rem , 20px);
+    }
+    .part3b{
+        padding:10px;
+    }
+    .part3b > div{
+        width:100%;
+    }
+    .imggirl{
+        display:none;
+    }
+    .blur-circle{
+        width:50%;
+        height:60% ;
+    }
+    #audioPlayback{
+        width:clamp(170px ,1vw + 1rem , 200px);
+    }
+}

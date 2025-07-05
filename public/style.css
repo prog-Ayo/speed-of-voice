@@ -280,7 +280,6 @@ opacity: 1;
   align-items: center;
 }
 .part2_1{
-  background-color: rgb(240, 180, 180);
   min-height:70vh;
   padding:30px ;
   background-image: linear-gradient(to top ,#ffffff2e,#88858521);
@@ -349,7 +348,6 @@ opacity: 1;
   font-size: 19px;
   line-height: 2;
   width:90%;
-  background-color: #78118a;
 }
 .part2_2 button{
   margin-top:10px;
